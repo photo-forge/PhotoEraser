@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHTCollectionViewWaterfallLayout.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantis.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnsplashPhotoPicker.framework

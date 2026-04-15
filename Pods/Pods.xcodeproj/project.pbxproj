@@ -1,0 +1,1482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A3529AD207B40867A2EB963FAC3AF6 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6FC9A208C51CAE5AB4DD764B91889 /* ConcurrentOperation.swift */; };
+		018D440E241DC71A0D651611B9573077 /* GeometryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F553417D69FBA559E1896B0AD47016 /* GeometryHelper.swift */; };
+		02C3F82C6CC7FC22CE73DF23733CF09D /* CropToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A723FE9182E9FA63B0D442B776062 /* CropToolbar.swift */; };
+		03C2BA0F4B12FFA406DCD2E4163F3D03 /* RatioPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B62965AF7883E873EE3A42DA74F67 /* RatioPresenter.swift */; };
+		06A4148CCAC2FC4F3F88EA5C6070431F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B57E43140E376DC1B24061C9122669 /* UIColor+Extensions.swift */; };
+		07FF05F5A43388A83C2D0BED4A92E565 /* Mantis.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC0256F2CD7AAFE5B1B3FD681B9C28 /* Mantis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094BC39D62F3B88CC5BDD25A72448C90 /* CropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1F5E68166050CC896C7E8C2D53F47 /* CropViewModel.swift */; };
+		0EB8B70332910711FF7F11C896090F7D /* KeyedDecodingContainer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C9AF5BB3BBD2EDAD5554EEFC7086C /* KeyedDecodingContainer+Extensions.swift */; };
+		102A277EC48D7945A8345F1461DEC13A /* UnsplashSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F28F53AF94FBAB53209B8682C03B39 /* UnsplashSearchController.swift */; };
+		10C100F61E1BADBC02CAA2126A0992BD /* UnsplashPhotoPickerViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75330DCAA3B1CC47655DBE518EDBA24 /* UnsplashPhotoPickerViewController+UICollectionView.swift */; };
+		1204310020289962CA6C1188863C7113 /* UnsplashRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB41A055EB5C0782A7BCF894213B466 /* UnsplashRequest.swift */; };
+		12E73FB91B29931BC9A5DD02AD5F9957 /* UnsplashPhotoItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0860C790997B6446025EC0C4A7710B4 /* UnsplashPhotoItemProvider.swift */; };
+		146FD8C4371078E0AAC98A669AE7DD56 /* UnsplashPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0F497708388E4C0E24CA85CC94F19 /* UnsplashPhotoPicker-dummy.m */; };
+		14EA0F2941507A54166486396E583643 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F351486485C778D823D9D2DDD110050 /* WaterfallLayout.swift */; };
+		14FA725CEA6C7A28ACFBDAC54B81AB34 /* CropToolbarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD447D1D20B8EA710ADEB6E2D687E75 /* CropToolbarProtocol.swift */; };
+		15E8B1C7D21E7ED2B61BDAFB401D9A94 /* CGImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4718C8863F31FE7991D9E733C1A4F /* CGImageExtensions.swift */; };
+		1A667E8C4D24806F90F7311EDE975175 /* UnsplashPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 86579F3751A5F5163A987F54AE3AC4FB /* UnsplashPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B0260638EF079B8BE347A3B9BD752A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1E7F01F3FF88D6775733917D8C3578B5 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2055868B7E5B2C08E55818CC0786BA /* PhotoView.swift */; };
+		1F02B77186EDF1E68E6B98E9EEC57FF2 /* RotationDial+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB2A0AAF6E882AADBDE7CA783AA5AC9 /* RotationDial+Touches.swift */; };
+		1F2EB27B220E59B3954F6A3199AABA73 /* CropMaskProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC0989041DEC8BDB1C971473BA63B2 /* CropMaskProtocal.swift */; };
+		2749118EB4A61630EBEC143D8B670D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		277ABDD7C0673C1232C0256745B3533F /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 4B67C247E18EEDA42995CD64A4DA9530 /* Localizable.strings */; };
+		2A06A9D696A04EA5B6D746B9DA21A29D /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F153C9D56BB7CFD7E1532DD005391084 /* CropViewController.swift */; };
+		3152270219A919C93996A9EDCF638533 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37027D77915E7CF28DB5FFFDB0457C5D /* CropView.swift */; };
+		33A39D1AAF867E8F72302F68E69FA4E8 /* CropView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B46AC0132DF924EDEEBFC3C073A2F /* CropView+UIScrollViewDelegate.swift */; };
+		3629B5681EA1C42F5A4F6A761A5B8C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		386AF5E9BDC1FC7AA839F96D27E48875 /* SearchPhotosRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFBC92C6ED808E76DBFE7B7FF0021C1 /* SearchPhotosRequest.swift */; };
+		3C066E62EB063D493539465E7E894609 /* UnsplashUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E512517C952D6BA8AB10CE434E71DB1 /* UnsplashUser.swift */; };
+		3F6D27B19FE7C1AD18AA0A54C70D1CC7 /* RatioItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC528C9DE37002721D5C224C4658AC /* RatioItemView.swift */; };
+		407B31A2639DFA1017E433F9F0366807 /* RatioSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB52620A3D1028C9988EF387ABC88C4 /* RatioSelector.swift */; };
+		4129CE914D40CE8E8A2740C2AF9C8016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		474EB1BBD97F089410FBD3466C5A0B76 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB1F83B94194D67570E63EE2B82119 /* NetworkRequest.swift */; };
+		475E2A1560FCBB5275F37188F021E89B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		4797AAB08FFD3A29605F50302A0A86B4 /* Pods-PhotoEraser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326B8D95B1503CC4FF95E9BA4A4E5549 /* Pods-PhotoEraser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DECC50ABF70CD75D0F99C7A798B8DE /* OperationQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C923F08A246999824D4BB7ACD796C /* OperationQueue+Extensions.swift */; };
+		49A08B977721182B8CEDF9DF00063332 /* PagedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B43DF6864A0D6744D30149EBB4B8C8 /* PagedDataSource.swift */; };
+		4B8D8A83867431B14CB03B652C63CDD3 /* Mantis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6852D2251A112C051122DA1BED57D44B /* Mantis.swift */; };
+		4E6D4D5192ED9374E315C2C81ED428CC /* CropBoxFreeAspectFrameUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B25E09117C6C29FCA06A4E66DE040 /* CropBoxFreeAspectFrameUpdater.swift */; };
+		524E99C32032D32CEF9BC5608FDC7AE2 /* Pods-PhotoEraser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C4709862E7C81E561D8E73962E193 /* Pods-PhotoEraser-dummy.m */; };
+		572560A6C03C1DA166F047417424D849 /* CropView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631238D5C962E84DD8E086A573FF72AA /* CropView+Touches.swift */; };
+		579D09CB0CFEAB1175DE1A2C96656B62 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242B71A9B6502E3AC0B406F7F4A8B66 /* URL+Extensions.swift */; };
+		5B87BF9CECEC1EC9CF6D5AA9369503B3 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A42F7514F4237314C25663475880CB /* CHTCollectionViewWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6070032A25F510957F7C2E885B25F0E0 /* UnsplashPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B38081CED56D91AF4A1A930E818B13 /* UnsplashPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		621C6FC6830F33E1DA85057475B6B414 /* CropScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB7D5C4D521AE2C65D4319E1B9066E /* CropScrollView.swift */; };
+		631AF093539C5A07763F240AEFEFB0DF /* ToolbarButtonOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794069807959A60252996FC4B287312 /* ToolbarButtonOptions.swift */; };
+		6726B5AD105D10F3BA3388A327180438 /* UnsplashPhotoPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B92CE25F052BB64FD005EA50C9AE3F /* UnsplashPhotoPickerConfiguration.swift */; };
+		6EF4198108B1D35043C5B4AFBBF99708 /* PhotosDataSourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F71015F7F7ACACA915F46F6593557 /* PhotosDataSourceFactory.swift */; };
+		71039EF03041D9C7C83D906963B505B0 /* UnsplashPhotoPickerPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA50F587FCBF6BCA92BD075C0AE3474 /* UnsplashPhotoPickerPreviewViewController.swift */; };
+		721DE68682A91DF751B288875BC0AF11 /* LocalizedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7143DF5D47045206BB7DD3EDFB2B5BA /* LocalizedHelper.swift */; };
+		73EB2DAAAC9990F79BC68FD498E12F49 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E3A243D53F4C6ACCEC63A3AC0AF53 /* Bundle+Extensions.swift */; };
+		748022953AED8989A861D1A47314AEAC /* RotationDialPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513566DBFC40A3A81B042B49F4D7D2A7 /* RotationDialPlate.swift */; };
+		7A48FC4A53CA886DF7C443185442C212 /* PhotoView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5689C25F8B4FBBDD3E6BF88ED158E711 /* PhotoView.xib */; };
+		7C295CBD8286BB8AB7989A3629F536FE /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74909C153DB98C5AA8FA13DF31B6F297 /* CHTCollectionViewWaterfallLayout.swift */; };
+		7CD45C0B32C5FAB238FF5FE69B7E854F /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6AB7377F6399F2E37240078526D7FA /* CHTCollectionViewWaterfallLayout-dummy.m */; };
+		843255366FB07A3FCDF7C1D70B57E56A /* UnsplashPhotoExif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA551FEAB73B05BBE63492EEC57AA35 /* UnsplashPhotoExif.swift */; };
+		876E2A8950FE5F45D2A941BB20E2EAB3 /* CGAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396EEA25F624FAACE0291EED1B054786 /* CGAngle.swift */; };
+		89B848037A0A41B084E5639148F5BD98 /* FixedRatioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B979916008A42748773A083B4159151E /* FixedRatioManager.swift */; };
+		8A45CA226B60A6B642B00D2E0FC28866 /* UnsplashPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8538800B93AA7041393E16F303ECF /* UnsplashPhotoPicker.swift */; };
+		8D2E1C35C6AEC8C35B378A3C79F77561 /* Mantis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A48CB8EDF597504D2697CF38501D07C /* Mantis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9109A62ED1B1D4056A4A513A8FBBB58D /* CropMaskViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D020F21DF00F86D2B878A075D72D8470 /* CropMaskViewManager.swift */; };
+		924668EC61D30A6870AE92F815190D67 /* UIColor+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C9B8A965016BBA56E96877A31952B /* UIColor+PhotoPicker.swift */; };
+		969DE0C8FCB0D0DF54E0CD8E5393659F /* CropVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F4164DF4CF9DAB86CE687257BDA33 /* CropVisualEffectView.swift */; };
+		9D08DAB9C675B5C1679E25BA4F6183D4 /* UnsplashPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0B6DDB20FC94F7EBC651F53E402FE4 /* UnsplashPhotoPickerViewController.swift */; };
+		A12A1A3147507079BD02446530ED8AE7 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED4FBBB250D223D2BD4FBE03CD97AE /* UIImageExtensions.swift */; };
+		A475F113FA999B9A5F8C397D42126C65 /* Localizable.stringsdict in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3553B8AC27F90C63726165F5668F6 /* Localizable.stringsdict */; };
+		A7F1957CE38506ED32B8D8E206CCF8FB /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4ABD56F12950DDFD9D47284A85B746 /* Orientation.swift */; };
+		A82A9ECA1E3B7A4E95550BAD9971972C /* RotationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF3C7D1A746B8371566CCDDEE80CE9 /* RotationCalculator.swift */; };
+		AC89D46154DA3D5575F06F114AFA4034 /* DialConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2DBC471C0123F497318C68F48A0C6 /* DialConfig.swift */; };
+		B176BEFBD9E026FF1906699D24F6277C /* CropOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD7FFA8CB8613E9E27F9105134DFEF9 /* CropOverlayView.swift */; };
+		B999190F2345EA64D3BC43347725EDD7 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B211C5B85ACF01C795492523A7E85C /* EmptyView.swift */; };
+		BE8A2945B757D62E3604C0C4C1882BD1 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F09EA96DF7DD8A209044DB2C33B8478 /* PagingView.swift */; };
+		C13DC4C01EB2B6D998FDDC8C3E06E903 /* ToolBarButtonImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD571F4260D8F60BC8351DE9F177B1 /* ToolBarButtonImageBuilder.swift */; };
+		C36FA7A91F149310D68113C674F45897 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0AA50082693BCE0FD25DB81EAC13D /* PhotoCell.swift */; };
+		C6C9FE9CE1A372647AD5D01ABFA160FC /* UnsplashPhoto+DragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476D069838AEB9CC77AA25C53E198 /* UnsplashPhoto+DragAndDrop.swift */; };
+		C7C8C4412D024185922AB29135DC8348 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E86CA009F4BE04DCB57CC58F2B385 /* Configuration.swift */; };
+		CE064F0B420C16A71E35D383B734E1F6 /* CropDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF919676C7C47473FBBCE269C330B9 /* CropDimmingView.swift */; };
+		D1BA94A2A1D90E09A876043A7A878A6A /* RatioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151743FF0D84B77273C62DB7F0D80CDA /* RatioOptions.swift */; };
+		D6907FAAB11FABB11A9DA3EB1C0DB285 /* CropBoxLockedAspectFrameUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E644DD403A81C4E1617E862E297461C /* CropBoxLockedAspectFrameUpdater.swift */; };
+		DB3E9D6BC90EEFD0DB35569F2EC902CA /* GetCollectionPhotosRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6CE65744603DC7CD2E37552AB6AEE2 /* GetCollectionPhotosRequest.swift */; };
+		DBFDE6174DB4726E5584862B293AD83F /* RotationDialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA323CEDD0E715A38248452DDCF1DDB /* RotationDialViewModel.swift */; };
+		DC9E92FD8F66FC4A9455CEF24DEA7D56 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4BEFC3EC59E2FC20A00BECBF928F938 /* Resource.bundle */; };
+		DFBCDA75F0AD35EE0389929D3123E05B /* NSError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8A1998FCD7B83385B934CDE7521B /* NSError+Extensions.swift */; };
+		E405F3C82F138AF63FA804D0A9C558EA /* CropViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D2859B8760E70C6E44C4B4819EEEB2 /* CropViewStatus.swift */; };
+		E485AB2C9F410370FE4CA07AB0B5CFB1 /* Mantis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D13DCDA845928B74E8AD40DC3A9631 /* Mantis-dummy.m */; };
+		E6976935459345F8288940EA296F6320 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64761A44E10BE1078AEEC13961AB2430 /* ImageDownloader.swift */; };
+		EEFF2A0E50FBAE3EDE1303E18EF98D29 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2432817E4BA43BD342996551B543A40 /* String+Localization.swift */; };
+		EF5B47F70BD3620DACC9277A55764388 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C421E21AB24F9E3535160A7A07E57055 /* ImageCache.swift */; };
+		F41BA9481EF48F7E2B164F49EE047779 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E158A57BDE963B47931DC53790E8A /* GradientView.swift */; };
+		F69459199CB6833B43562826D393AA16 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25AD568F69DA8C9153E3ED2065E7683 /* ImageContainer.swift */; };
+		F7002B8A0C4E99504A93F8C921B8CF1B /* UnsplashPagedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498CABCC65C58B6B04F028E540DBD9E7 /* UnsplashPagedRequest.swift */; };
+		F84CCD25FD79B7CBB52C56A4AF9C9EB2 /* RotationDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD722B3B32DE661E09E317A6C88E325 /* RotationDial.swift */; };
+		F887C9D5EC2760267BED472990416D5F /* UnsplashPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467357F84A8D0C1C5A4C8E3BADA47D2 /* UnsplashPhoto.swift */; };
+		FABD016CFB77284FD0CC8796887CBD58 /* MantisLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEB397DAD40E06A093F81F8C15CE0EA7 /* MantisLocalizable.strings */; };
+		FDD9A336EE734781268AA15D7471C11E /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1838AA4532653A4AE78AF846ED985AB /* CoreGraphicsExtensions.swift */; };
+		FE1C3380C5384BDB2CD149A3F2000392 /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B73DD8C7E7752A6D77D1CC6DEDA5 /* CheckmarkView.swift */; };
+		FFDD96BA07555BBA09D1110DD037E4F7 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87719CFDDC77E5BC4C7F8520D363DE /* Dictionary+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BC2475D2F841D0A6D9049DFFACA0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D185DC913D045063CEAD5E6B1504E7;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		439FA43CD4FD27B573C12D564307E16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418D3075F70B272B304B89BF311E5FAE;
+			remoteInfo = "Mantis-Resource";
+		};
+		4E89CDB009965DAC9C08E4A1A1659B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2ABD0F2A8B2E7C130F5D356B187E9B3;
+			remoteInfo = UnsplashPhotoPicker;
+		};
+		836BD33A360BCF2609C8937C9968B856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B765AE885D71986CD6D5EC0726D8ED31;
+			remoteInfo = Mantis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B57E43140E376DC1B24061C9122669 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		00EC0256F2CD7AAFE5B1B3FD681B9C28 /* Mantis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantis.h; path = Sources/Mantis/Mantis.h; sourceTree = "<group>"; };
+		01A4718C8863F31FE7991D9E733C1A4F /* CGImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGImageExtensions.swift; path = Sources/Mantis/Extensions/CGImageExtensions.swift; sourceTree = "<group>"; };
+		01E46DBB3990F729DB84D14859630F17 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = nl.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		069FE1E6472345436A7B948D345FD6A4 /* Pods-PhotoEraser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoEraser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A48CB8EDF597504D2697CF38501D07C /* Mantis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantis-umbrella.h"; sourceTree = "<group>"; };
+		0B4B2608276B47AF0FA11DB7EFD591EC /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "ko-KR.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		0CA50F587FCBF6BCA92BD075C0AE3474 /* UnsplashPhotoPickerPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhotoPickerPreviewViewController.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Controllers/UnsplashPhotoPickerPreviewViewController.swift; sourceTree = "<group>"; };
+		0DFBC92C6ED808E76DBFE7B7FF0021C1 /* SearchPhotosRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchPhotosRequest.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Operations/SearchPhotosRequest.swift; sourceTree = "<group>"; };
+		0E512517C952D6BA8AB10CE434E71DB1 /* UnsplashUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashUser.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashUser.swift; sourceTree = "<group>"; };
+		133E3A243D53F4C6ACCEC63A3AC0AF53 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		1467357F84A8D0C1C5A4C8E3BADA47D2 /* UnsplashPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhoto.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashPhoto.swift; sourceTree = "<group>"; };
+		151743FF0D84B77273C62DB7F0D80CDA /* RatioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioOptions.swift; path = Sources/Mantis/RatioOptions.swift; sourceTree = "<group>"; };
+		181F71015F7F7ACACA915F46F6593557 /* PhotosDataSourceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotosDataSourceFactory.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Services/PhotosDataSourceFactory.swift; sourceTree = "<group>"; };
+		19593D9FFE7EC02EA42D3C170B965010 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ko.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		1AEB6C4BCE4B94F6520D54C38AED554B /* Pods-PhotoEraser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoEraser-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DB52620A3D1028C9988EF387ABC88C4 /* RatioSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioSelector.swift; path = Sources/Mantis/CropViewController/RatioSelector.swift; sourceTree = "<group>"; };
+		1EE0F497708388E4C0E24CA85CC94F19 /* UnsplashPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnsplashPhotoPicker-dummy.m"; sourceTree = "<group>"; };
+		1F351486485C778D823D9D2DDD110050 /* WaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaterfallLayout.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/WaterfallLayout.swift; sourceTree = "<group>"; };
+		26CC528C9DE37002721D5C224C4658AC /* RatioItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioItemView.swift; path = Sources/Mantis/CropViewController/RatioItemView.swift; sourceTree = "<group>"; };
+		2828817D50788582B995BB118AFBEA12 /* Pods-PhotoEraser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoEraser-Info.plist"; sourceTree = "<group>"; };
+		2AD447D1D20B8EA710ADEB6E2D687E75 /* CropToolbarProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbarProtocol.swift; path = Sources/Mantis/CropViewController/CropToolbarProtocol.swift; sourceTree = "<group>"; };
+		2C2E86CA009F4BE04DCB57CC58F2B385 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		2CFF3C7D1A746B8371566CCDDEE80CE9 /* RotationCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationCalculator.swift; path = Sources/Mantis/RotationDial/RotationCalculator.swift; sourceTree = "<group>"; };
+		2E8165CFF2D0BBDA49F6669C999F0F58 /* Pods-PhotoEraser-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoEraser-frameworks.sh"; sourceTree = "<group>"; };
+		2EB69FE0A7BECCAD75D4D1B444F215F4 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
+		305476D069838AEB9CC77AA25C53E198 /* UnsplashPhoto+DragAndDrop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnsplashPhoto+DragAndDrop.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashPhoto+DragAndDrop.swift"; sourceTree = "<group>"; };
+		30BC0989041DEC8BDB1C971473BA63B2 /* CropMaskProtocal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskProtocal.swift; path = Sources/Mantis/MaskBackground/CropMaskProtocal.swift; sourceTree = "<group>"; };
+		316D22F8B19400DBC5073973480D1521 /* Mantis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3242B71A9B6502E3AC0B406F7F4A8B66 /* URL+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/URL+Extensions.swift"; sourceTree = "<group>"; };
+		326B8D95B1503CC4FF95E9BA4A4E5549 /* Pods-PhotoEraser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoEraser-umbrella.h"; sourceTree = "<group>"; };
+		32CB7D5C4D521AE2C65D4319E1B9066E /* CropScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropScrollView.swift; path = Sources/Mantis/CropView/CropScrollView.swift; sourceTree = "<group>"; };
+		37027D77915E7CF28DB5FFFDB0457C5D /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = Sources/Mantis/CropView/CropView.swift; sourceTree = "<group>"; };
+		3794069807959A60252996FC4B287312 /* ToolbarButtonOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolbarButtonOptions.swift; path = Sources/Mantis/ToolbarButtonOptions.swift; sourceTree = "<group>"; };
+		37D965B2313E9CAE7AD6A4811FC884A3 /* UnsplashPhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnsplashPhotoPicker.debug.xcconfig; sourceTree = "<group>"; };
+		37F553417D69FBA559E1896B0AD47016 /* GeometryHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeometryHelper.swift; path = Sources/Mantis/Helpers/GeometryHelper.swift; sourceTree = "<group>"; };
+		381AA0916745BF213E47B12476E1277F /* UnsplashPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnsplashPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		396EEA25F624FAACE0291EED1B054786 /* CGAngle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAngle.swift; path = Sources/Mantis/RotationDial/CGAngle.swift; sourceTree = "<group>"; };
+		39DAF5D7222E73AE3B0AEFDABB9FBF69 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = en.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		3BE3553B8AC27F90C63726165F5668F6 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		3C25AA2C67B1CF650296243DE73DAF3D /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ja.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		3F48AD12FE201E39818FB8467FFDDDA6 /* ResourceBundle-Resource-Mantis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resource-Mantis-Info.plist"; sourceTree = "<group>"; };
+		480288E59FAC35EE738D2E620B0F6CB2 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "zh-Hant.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		498CABCC65C58B6B04F028E540DBD9E7 /* UnsplashPagedRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPagedRequest.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Operations/UnsplashPagedRequest.swift; sourceTree = "<group>"; };
+		4B67C247E18EEDA42995CD64A4DA9530 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D4C9AF5BB3BBD2EDAD5554EEFC7086C /* KeyedDecodingContainer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KeyedDecodingContainer+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/KeyedDecodingContainer+Extensions.swift"; sourceTree = "<group>"; };
+		4FFD571F4260D8F60BC8351DE9F177B1 /* ToolBarButtonImageBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolBarButtonImageBuilder.swift; path = Sources/Mantis/CropViewController/ToolBarButtonImageBuilder.swift; sourceTree = "<group>"; };
+		513566DBFC40A3A81B042B49F4D7D2A7 /* RotationDialPlate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialPlate.swift; path = Sources/Mantis/RotationDial/RotationDialPlate.swift; sourceTree = "<group>"; };
+		5689C25F8B4FBBDD3E6BF88ED158E711 /* PhotoView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PhotoView.xib; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/PhotoView.xib; sourceTree = "<group>"; };
+		5818D8E42AA95476C780C6E789313313 /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		5BEB1F83B94194D67570E63EE2B82119 /* NetworkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRequest.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Operations/NetworkRequest.swift; sourceTree = "<group>"; };
+		5C9F4164DF4CF9DAB86CE687257BDA33 /* CropVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropVisualEffectView.swift; path = Sources/Mantis/MaskBackground/CropVisualEffectView.swift; sourceTree = "<group>"; };
+		5E096E08483F5F553481B6AC47BD0C63 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB41A055EB5C0782A7BCF894213B466 /* UnsplashRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashRequest.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Operations/UnsplashRequest.swift; sourceTree = "<group>"; };
+		60301D8CFFD4DD07DDD0DA273874CD07 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ar.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		631238D5C962E84DD8E086A573FF72AA /* CropView+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropView+Touches.swift"; path = "Sources/Mantis/CropView/CropView+Touches.swift"; sourceTree = "<group>"; };
+		64761A44E10BE1078AEEC13961AB2430 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Services/ImageDownloader.swift; sourceTree = "<group>"; };
+		66B38081CED56D91AF4A1A930E818B13 /* UnsplashPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnsplashPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		6852D2251A112C051122DA1BED57D44B /* Mantis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mantis.swift; path = Sources/Mantis/Mantis.swift; sourceTree = "<group>"; };
+		69ED4FBBB250D223D2BD4FBE03CD97AE /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/Mantis/Extensions/UIImageExtensions.swift; sourceTree = "<group>"; };
+		73B43DF6864A0D6744D30149EBB4B8C8 /* PagedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagedDataSource.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Services/PagedDataSource.swift; sourceTree = "<group>"; };
+		74909C153DB98C5AA8FA13DF31B6F297 /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHTCollectionViewWaterfallLayout.swift; path = SwiftSources/CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		7602EB5194039AD594289F4CA40402BA /* Pods-PhotoEraser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoEraser.release.xcconfig"; sourceTree = "<group>"; };
+		76B211C5B85ACF01C795492523A7E85C /* EmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyView.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/EmptyView.swift; sourceTree = "<group>"; };
+		7A204E97CBA88A4CE7DD5D728C92D7C5 /* Pods-PhotoEraser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoEraser.modulemap"; sourceTree = "<group>"; };
+		7A87719CFDDC77E5BC4C7F8520D363DE /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		7BA323CEDD0E715A38248452DDCF1DDB /* RotationDialViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialViewModel.swift; path = Sources/Mantis/RotationDial/RotationDialViewModel.swift; sourceTree = "<group>"; };
+		7D1DDB40B7BE09B453F0B503AD85F272 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "pt-PT.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		7F09EA96DF7DD8A209044DB2C33B8478 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/PagingView.swift; sourceTree = "<group>"; };
+		80138026ABEAD525381DDB4624960A62 /* Mantis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mantis.modulemap; sourceTree = "<group>"; };
+		827C4709862E7C81E561D8E73962E193 /* Pods-PhotoEraser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoEraser-dummy.m"; sourceTree = "<group>"; };
+		8435648D10F712A5540BCDDDEAA4EF12 /* UnsplashPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnsplashPhotoPicker.modulemap; sourceTree = "<group>"; };
+		85A42F7514F4237314C25663475880CB /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
+		86579F3751A5F5163A987F54AE3AC4FB /* UnsplashPhotoPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnsplashPhotoPicker.h; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/UnsplashPhotoPicker.h; sourceTree = "<group>"; };
+		880A35A82AB228A04AC38FD9F9483475 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "zh-Hans.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		883BA1161F199D38B3C42C93731B4DD1 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = fr.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		8A6AB7377F6399F2E37240078526D7FA /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
+		8C93EDBFF85EFB43C10AFCF825241AC7 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ru.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		8D4B62965AF7883E873EE3A42DA74F67 /* RatioPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioPresenter.swift; path = Sources/Mantis/CropViewController/RatioPresenter.swift; sourceTree = "<group>"; };
+		907B46AC0132DF924EDEEBFC3C073A2F /* CropView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropView+UIScrollViewDelegate.swift"; path = "Sources/Mantis/CropView/CropView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		9272F20CD937CD0D3CB3C7981672DE64 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = it.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		92785EF74A1468689EFE37D558CE6009 /* UnsplashPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnsplashPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		953ACFFD23A20B12BDA6792094A894CF /* UnsplashPhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnsplashPhotoPicker.release.xcconfig; sourceTree = "<group>"; };
+		9A20B165DFBEFEA3A11DBD473A719EFE /* Mantis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantis-prefix.pch"; sourceTree = "<group>"; };
+		9AC1F5E68166050CC896C7E8C2D53F47 /* CropViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewModel.swift; path = Sources/Mantis/CropView/CropViewModel.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E644DD403A81C4E1617E862E297461C /* CropBoxLockedAspectFrameUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropBoxLockedAspectFrameUpdater.swift; path = Sources/Mantis/CropView/CropBoxLockedAspectFrameUpdater.swift; sourceTree = "<group>"; };
+		9F4ABD56F12950DDFD9D47284A85B746 /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Sources/Mantis/Helpers/Orientation.swift; sourceTree = "<group>"; };
+		A0B92CE25F052BB64FD005EA50C9AE3F /* UnsplashPhotoPickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhotoPickerConfiguration.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Configuration/UnsplashPhotoPickerConfiguration.swift; sourceTree = "<group>"; };
+		A7428FB7FE0C30FC5E23BB60E0557511 /* CHTCollectionViewWaterfallLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.release.xcconfig; sourceTree = "<group>"; };
+		AA2055868B7E5B2C08E55818CC0786BA /* PhotoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoView.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/PhotoView.swift; sourceTree = "<group>"; };
+		AC2E158A57BDE963B47931DC53790E8A /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/GradientView.swift; sourceTree = "<group>"; };
+		AEB8538800B93AA7041393E16F303ECF /* UnsplashPhotoPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhotoPicker.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Controllers/UnsplashPhotoPicker.swift; sourceTree = "<group>"; };
+		B1838AA4532653A4AE78AF846ED985AB /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreGraphicsExtensions.swift; path = Sources/Mantis/Extensions/CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
+		B25AD568F69DA8C9153E3ED2065E7683 /* ImageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContainer.swift; path = Sources/Mantis/CropView/ImageContainer.swift; sourceTree = "<group>"; };
+		B319A251ECD7762BA432EDF864BBABE9 /* Pods_PhotoEraser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoEraser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93A723FE9182E9FA63B0D442B776062 /* CropToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbar.swift; path = Sources/Mantis/CropViewController/CropToolbar.swift; sourceTree = "<group>"; };
+		B979916008A42748773A083B4159151E /* FixedRatioManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedRatioManager.swift; path = Sources/Mantis/CropViewController/FixedRatioManager.swift; sourceTree = "<group>"; };
+		BAD7FFA8CB8613E9E27F9105134DFEF9 /* CropOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlayView.swift; path = Sources/Mantis/CropView/CropOverlayView.swift; sourceTree = "<group>"; };
+		BBE6D2650D04B33A12E72A6946E4A043 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = de.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		BC0B6DDB20FC94F7EBC651F53E402FE4 /* UnsplashPhotoPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhotoPickerViewController.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Controllers/UnsplashPhotoPickerViewController.swift; sourceTree = "<group>"; };
+		BD6CE65744603DC7CD2E37552AB6AEE2 /* GetCollectionPhotosRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetCollectionPhotosRequest.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Operations/GetCollectionPhotosRequest.swift; sourceTree = "<group>"; };
+		C11AABE8AB6E0796E59DBC50B5B255D3 /* Mantis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantis.debug.xcconfig; sourceTree = "<group>"; };
+		C1E175CD665899C13318B96DC4FC20C9 /* Mantis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantis.release.xcconfig; sourceTree = "<group>"; };
+		C421E21AB24F9E3535160A7A07E57055 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Services/ImageCache.swift; sourceTree = "<group>"; };
+		C427B73DD8C7E7752A6D77D1CC6DEDA5 /* CheckmarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckmarkView.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/CheckmarkView.swift; sourceTree = "<group>"; };
+		CBB2A0AAF6E882AADBDE7CA783AA5AC9 /* RotationDial+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RotationDial+Touches.swift"; path = "Sources/Mantis/RotationDial/RotationDial+Touches.swift"; sourceTree = "<group>"; };
+		CD0B01BD797DA670FCBAD8F48DAE1397 /* UnsplashPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnsplashPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA551FEAB73B05BBE63492EEC57AA35 /* UnsplashPhotoExif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhotoExif.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashPhotoExif.swift; sourceTree = "<group>"; };
+		D020F21DF00F86D2B878A075D72D8470 /* CropMaskViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskViewManager.swift; path = Sources/Mantis/CropView/CropMaskViewManager.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D39B25E09117C6C29FCA06A4E66DE040 /* CropBoxFreeAspectFrameUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropBoxFreeAspectFrameUpdater.swift; path = Sources/Mantis/CropView/CropBoxFreeAspectFrameUpdater.swift; sourceTree = "<group>"; };
+		D7A2DBC471C0123F497318C68F48A0C6 /* DialConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialConfig.swift; path = Sources/Mantis/RotationDial/DialConfig.swift; sourceTree = "<group>"; };
+		D7D2859B8760E70C6E44C4B4819EEEB2 /* CropViewStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewStatus.swift; path = Sources/Mantis/CropView/CropViewStatus.swift; sourceTree = "<group>"; };
+		DDAA4D3824D3B0A0C7D527A107C9EDD9 /* CHTCollectionViewWaterfallLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.debug.xcconfig; sourceTree = "<group>"; };
+		E0860C790997B6446025EC0C4A7710B4 /* UnsplashPhotoItemProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashPhotoItemProvider.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashPhotoItemProvider.swift; sourceTree = "<group>"; };
+		E2432817E4BA43BD342996551B543A40 /* String+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Localization.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/String+Localization.swift"; sourceTree = "<group>"; };
+		E3C8040D28BDFAFDFA436057A320509D /* CHTCollectionViewWaterfallLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHTCollectionViewWaterfallLayout-Info.plist"; sourceTree = "<group>"; };
+		E4BEFC3EC59E2FC20A00BECBF928F938 /* Resource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7143DF5D47045206BB7DD3EDFB2B5BA /* LocalizedHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizedHelper.swift; path = Sources/Mantis/Helpers/LocalizedHelper.swift; sourceTree = "<group>"; };
+		E75330DCAA3B1CC47655DBE518EDBA24 /* UnsplashPhotoPickerViewController+UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnsplashPhotoPickerViewController+UICollectionView.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Controllers/UnsplashPhotoPickerViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		E7D13DCDA845928B74E8AD40DC3A9631 /* Mantis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantis-dummy.m"; sourceTree = "<group>"; };
+		E8C1EEAF7B9C5C27FC5E95B4DB23355D /* Mantis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mantis-Info.plist"; sourceTree = "<group>"; };
+		E9EF919676C7C47473FBBCE269C330B9 /* CropDimmingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimmingView.swift; path = Sources/Mantis/MaskBackground/CropDimmingView.swift; sourceTree = "<group>"; };
+		E9F28F53AF94FBAB53209B8682C03B39 /* UnsplashSearchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsplashSearchController.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Controllers/UnsplashSearchController.swift; sourceTree = "<group>"; };
+		EA8F8A1998FCD7B83385B934CDE7521B /* NSError+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/NSError+Extensions.swift"; sourceTree = "<group>"; };
+		EA9F472D7854F06BA71BEA0399FB9457 /* Pods-PhotoEraser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoEraser.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EBE6CC921B017F85E51FE86AEB6E465B /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = es.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		EFD722B3B32DE661E09E317A6C88E325 /* RotationDial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDial.swift; path = Sources/Mantis/RotationDial/RotationDial.swift; sourceTree = "<group>"; };
+		F05C923F08A246999824D4BB7ACD796C /* OperationQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Extensions.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/OperationQueue+Extensions.swift"; sourceTree = "<group>"; };
+		F0A6FC9A208C51CAE5AB4DD764B91889 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentOperation.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Operations/ConcurrentOperation.swift; sourceTree = "<group>"; };
+		F153C9D56BB7CFD7E1532DD005391084 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Sources/Mantis/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
+		F63C9B8A965016BBA56E96877A31952B /* UIColor+PhotoPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+PhotoPicker.swift"; path = "UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Utils/UIColor+PhotoPicker.swift"; sourceTree = "<group>"; };
+		FAE0AA50082693BCE0FD25DB81EAC13D /* PhotoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoCell.swift; path = UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Views/PhotoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEB7532B4B433401E85B901AD00C014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629B5681EA1C42F5A4F6A761A5B8C05 /* Foundation.framework in Frameworks */,
+				475E2A1560FCBB5275F37188F021E89B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DE22F9A4E622ADB0D8968684B191E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2749118EB4A61630EBEC143D8B670D98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736375C3BA23A55302951337954204CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0260638EF079B8BE347A3B9BD752A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A814DA868EECCE03FD730744052A2825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F612743FDFA3DF2428F3FA02627EA4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129CE914D40CE8E8A2740C2AF9C8016 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006F68CD3B558CFF6873D949D87658D0 /* Mantis */ = {
+			isa = PBXGroup;
+			children = (
+				396EEA25F624FAACE0291EED1B054786 /* CGAngle.swift */,
+				01A4718C8863F31FE7991D9E733C1A4F /* CGImageExtensions.swift */,
+				B1838AA4532653A4AE78AF846ED985AB /* CoreGraphicsExtensions.swift */,
+				D39B25E09117C6C29FCA06A4E66DE040 /* CropBoxFreeAspectFrameUpdater.swift */,
+				9E644DD403A81C4E1617E862E297461C /* CropBoxLockedAspectFrameUpdater.swift */,
+				E9EF919676C7C47473FBBCE269C330B9 /* CropDimmingView.swift */,
+				30BC0989041DEC8BDB1C971473BA63B2 /* CropMaskProtocal.swift */,
+				D020F21DF00F86D2B878A075D72D8470 /* CropMaskViewManager.swift */,
+				BAD7FFA8CB8613E9E27F9105134DFEF9 /* CropOverlayView.swift */,
+				32CB7D5C4D521AE2C65D4319E1B9066E /* CropScrollView.swift */,
+				B93A723FE9182E9FA63B0D442B776062 /* CropToolbar.swift */,
+				2AD447D1D20B8EA710ADEB6E2D687E75 /* CropToolbarProtocol.swift */,
+				37027D77915E7CF28DB5FFFDB0457C5D /* CropView.swift */,
+				631238D5C962E84DD8E086A573FF72AA /* CropView+Touches.swift */,
+				907B46AC0132DF924EDEEBFC3C073A2F /* CropView+UIScrollViewDelegate.swift */,
+				F153C9D56BB7CFD7E1532DD005391084 /* CropViewController.swift */,
+				9AC1F5E68166050CC896C7E8C2D53F47 /* CropViewModel.swift */,
+				D7D2859B8760E70C6E44C4B4819EEEB2 /* CropViewStatus.swift */,
+				5C9F4164DF4CF9DAB86CE687257BDA33 /* CropVisualEffectView.swift */,
+				D7A2DBC471C0123F497318C68F48A0C6 /* DialConfig.swift */,
+				B979916008A42748773A083B4159151E /* FixedRatioManager.swift */,
+				37F553417D69FBA559E1896B0AD47016 /* GeometryHelper.swift */,
+				B25AD568F69DA8C9153E3ED2065E7683 /* ImageContainer.swift */,
+				E7143DF5D47045206BB7DD3EDFB2B5BA /* LocalizedHelper.swift */,
+				00EC0256F2CD7AAFE5B1B3FD681B9C28 /* Mantis.h */,
+				6852D2251A112C051122DA1BED57D44B /* Mantis.swift */,
+				9F4ABD56F12950DDFD9D47284A85B746 /* Orientation.swift */,
+				26CC528C9DE37002721D5C224C4658AC /* RatioItemView.swift */,
+				151743FF0D84B77273C62DB7F0D80CDA /* RatioOptions.swift */,
+				8D4B62965AF7883E873EE3A42DA74F67 /* RatioPresenter.swift */,
+				1DB52620A3D1028C9988EF387ABC88C4 /* RatioSelector.swift */,
+				2CFF3C7D1A746B8371566CCDDEE80CE9 /* RotationCalculator.swift */,
+				EFD722B3B32DE661E09E317A6C88E325 /* RotationDial.swift */,
+				CBB2A0AAF6E882AADBDE7CA783AA5AC9 /* RotationDial+Touches.swift */,
+				513566DBFC40A3A81B042B49F4D7D2A7 /* RotationDialPlate.swift */,
+				7BA323CEDD0E715A38248452DDCF1DDB /* RotationDialViewModel.swift */,
+				4FFD571F4260D8F60BC8351DE9F177B1 /* ToolBarButtonImageBuilder.swift */,
+				3794069807959A60252996FC4B287312 /* ToolbarButtonOptions.swift */,
+				69ED4FBBB250D223D2BD4FBE03CD97AE /* UIImageExtensions.swift */,
+				78499CA58684DB0C238DB04F65DF4455 /* Resources */,
+				09916687C9A8A7C444F82EB24F51E9DD /* Support Files */,
+			);
+			path = Mantis;
+			sourceTree = "<group>";
+		};
+		09916687C9A8A7C444F82EB24F51E9DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80138026ABEAD525381DDB4624960A62 /* Mantis.modulemap */,
+				E7D13DCDA845928B74E8AD40DC3A9631 /* Mantis-dummy.m */,
+				E8C1EEAF7B9C5C27FC5E95B4DB23355D /* Mantis-Info.plist */,
+				9A20B165DFBEFEA3A11DBD473A719EFE /* Mantis-prefix.pch */,
+				0A48CB8EDF597504D2697CF38501D07C /* Mantis-umbrella.h */,
+				C11AABE8AB6E0796E59DBC50B5B255D3 /* Mantis.debug.xcconfig */,
+				C1E175CD665899C13318B96DC4FC20C9 /* Mantis.release.xcconfig */,
+				3F48AD12FE201E39818FB8467FFDDDA6 /* ResourceBundle-Resource-Mantis-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mantis";
+			sourceTree = "<group>";
+		};
+		0E445F24D041B0B5A92C8C3E5BEBFF8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A8FF669C1D45BB72467A3ADE47859D5 /* CHTCollectionViewWaterfallLayout */,
+				006F68CD3B558CFF6873D949D87658D0 /* Mantis */,
+				390478FF22CA5A2AEEADBD5C43305B2C /* UnsplashPhotoPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		390478FF22CA5A2AEEADBD5C43305B2C /* UnsplashPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				133E3A243D53F4C6ACCEC63A3AC0AF53 /* Bundle+Extensions.swift */,
+				C427B73DD8C7E7752A6D77D1CC6DEDA5 /* CheckmarkView.swift */,
+				F0A6FC9A208C51CAE5AB4DD764B91889 /* ConcurrentOperation.swift */,
+				2C2E86CA009F4BE04DCB57CC58F2B385 /* Configuration.swift */,
+				7A87719CFDDC77E5BC4C7F8520D363DE /* Dictionary+Extensions.swift */,
+				76B211C5B85ACF01C795492523A7E85C /* EmptyView.swift */,
+				BD6CE65744603DC7CD2E37552AB6AEE2 /* GetCollectionPhotosRequest.swift */,
+				AC2E158A57BDE963B47931DC53790E8A /* GradientView.swift */,
+				C421E21AB24F9E3535160A7A07E57055 /* ImageCache.swift */,
+				64761A44E10BE1078AEEC13961AB2430 /* ImageDownloader.swift */,
+				4D4C9AF5BB3BBD2EDAD5554EEFC7086C /* KeyedDecodingContainer+Extensions.swift */,
+				C3733655C5D8FB34EF0E97FF2B69A8D7 /* Localizable.strings */,
+				4F99EE19D24C2D2D2E201AFC56683283 /* Localizable.stringsdict */,
+				5BEB1F83B94194D67570E63EE2B82119 /* NetworkRequest.swift */,
+				EA8F8A1998FCD7B83385B934CDE7521B /* NSError+Extensions.swift */,
+				F05C923F08A246999824D4BB7ACD796C /* OperationQueue+Extensions.swift */,
+				73B43DF6864A0D6744D30149EBB4B8C8 /* PagedDataSource.swift */,
+				7F09EA96DF7DD8A209044DB2C33B8478 /* PagingView.swift */,
+				FAE0AA50082693BCE0FD25DB81EAC13D /* PhotoCell.swift */,
+				181F71015F7F7ACACA915F46F6593557 /* PhotosDataSourceFactory.swift */,
+				AA2055868B7E5B2C08E55818CC0786BA /* PhotoView.swift */,
+				5689C25F8B4FBBDD3E6BF88ED158E711 /* PhotoView.xib */,
+				0DFBC92C6ED808E76DBFE7B7FF0021C1 /* SearchPhotosRequest.swift */,
+				E2432817E4BA43BD342996551B543A40 /* String+Localization.swift */,
+				00B57E43140E376DC1B24061C9122669 /* UIColor+Extensions.swift */,
+				F63C9B8A965016BBA56E96877A31952B /* UIColor+PhotoPicker.swift */,
+				498CABCC65C58B6B04F028E540DBD9E7 /* UnsplashPagedRequest.swift */,
+				1467357F84A8D0C1C5A4C8E3BADA47D2 /* UnsplashPhoto.swift */,
+				305476D069838AEB9CC77AA25C53E198 /* UnsplashPhoto+DragAndDrop.swift */,
+				CDA551FEAB73B05BBE63492EEC57AA35 /* UnsplashPhotoExif.swift */,
+				E0860C790997B6446025EC0C4A7710B4 /* UnsplashPhotoItemProvider.swift */,
+				86579F3751A5F5163A987F54AE3AC4FB /* UnsplashPhotoPicker.h */,
+				AEB8538800B93AA7041393E16F303ECF /* UnsplashPhotoPicker.swift */,
+				A0B92CE25F052BB64FD005EA50C9AE3F /* UnsplashPhotoPickerConfiguration.swift */,
+				0CA50F587FCBF6BCA92BD075C0AE3474 /* UnsplashPhotoPickerPreviewViewController.swift */,
+				BC0B6DDB20FC94F7EBC651F53E402FE4 /* UnsplashPhotoPickerViewController.swift */,
+				E75330DCAA3B1CC47655DBE518EDBA24 /* UnsplashPhotoPickerViewController+UICollectionView.swift */,
+				5FB41A055EB5C0782A7BCF894213B466 /* UnsplashRequest.swift */,
+				E9F28F53AF94FBAB53209B8682C03B39 /* UnsplashSearchController.swift */,
+				0E512517C952D6BA8AB10CE434E71DB1 /* UnsplashUser.swift */,
+				3242B71A9B6502E3AC0B406F7F4A8B66 /* URL+Extensions.swift */,
+				1F351486485C778D823D9D2DDD110050 /* WaterfallLayout.swift */,
+				A4833013D86B4228518173D9A1AB7272 /* Support Files */,
+			);
+			path = UnsplashPhotoPicker;
+			sourceTree = "<group>";
+		};
+		3B466AF2C305C2E43107B7DC3571458C /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				74909C153DB98C5AA8FA13DF31B6F297 /* CHTCollectionViewWaterfallLayout.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		4A8FF669C1D45BB72467A3ADE47859D5 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EFB879466A7BFBBAF35C87C9F402A5D0 /* Support Files */,
+				3B466AF2C305C2E43107B7DC3571458C /* Swift */,
+			);
+			path = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78499CA58684DB0C238DB04F65DF4455 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEB397DAD40E06A093F81F8C15CE0EA7 /* MantisLocalizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		80FF8C12D8199092922ECDB51DF4E6A4 /* Pods-PhotoEraser */ = {
+			isa = PBXGroup;
+			children = (
+				7A204E97CBA88A4CE7DD5D728C92D7C5 /* Pods-PhotoEraser.modulemap */,
+				069FE1E6472345436A7B948D345FD6A4 /* Pods-PhotoEraser-acknowledgements.markdown */,
+				1AEB6C4BCE4B94F6520D54C38AED554B /* Pods-PhotoEraser-acknowledgements.plist */,
+				827C4709862E7C81E561D8E73962E193 /* Pods-PhotoEraser-dummy.m */,
+				2E8165CFF2D0BBDA49F6669C999F0F58 /* Pods-PhotoEraser-frameworks.sh */,
+				2828817D50788582B995BB118AFBEA12 /* Pods-PhotoEraser-Info.plist */,
+				326B8D95B1503CC4FF95E9BA4A4E5549 /* Pods-PhotoEraser-umbrella.h */,
+				EA9F472D7854F06BA71BEA0399FB9457 /* Pods-PhotoEraser.debug.xcconfig */,
+				7602EB5194039AD594289F4CA40402BA /* Pods-PhotoEraser.release.xcconfig */,
+			);
+			name = "Pods-PhotoEraser";
+			path = "Target Support Files/Pods-PhotoEraser";
+			sourceTree = "<group>";
+		};
+		9DB9EE5F0128ADC717EF604963F19956 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FF8C12D8199092922ECDB51DF4E6A4 /* Pods-PhotoEraser */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4833013D86B4228518173D9A1AB7272 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8435648D10F712A5540BCDDDEAA4EF12 /* UnsplashPhotoPicker.modulemap */,
+				1EE0F497708388E4C0E24CA85CC94F19 /* UnsplashPhotoPicker-dummy.m */,
+				381AA0916745BF213E47B12476E1277F /* UnsplashPhotoPicker-Info.plist */,
+				92785EF74A1468689EFE37D558CE6009 /* UnsplashPhotoPicker-prefix.pch */,
+				66B38081CED56D91AF4A1A930E818B13 /* UnsplashPhotoPicker-umbrella.h */,
+				37D965B2313E9CAE7AD6A4811FC884A3 /* UnsplashPhotoPicker.debug.xcconfig */,
+				953ACFFD23A20B12BDA6792094A894CF /* UnsplashPhotoPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UnsplashPhotoPicker";
+			sourceTree = "<group>";
+		};
+		B1D9DA567D9D4F70982EC8E53FA09821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E096E08483F5F553481B6AC47BD0C63 /* CHTCollectionViewWaterfallLayout.framework */,
+				316D22F8B19400DBC5073973480D1521 /* Mantis.framework */,
+				B319A251ECD7762BA432EDF864BBABE9 /* Pods_PhotoEraser.framework */,
+				E4BEFC3EC59E2FC20A00BECBF928F938 /* Resource.bundle */,
+				CD0B01BD797DA670FCBAD8F48DAE1397 /* UnsplashPhotoPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0E445F24D041B0B5A92C8C3E5BEBFF8B /* Pods */,
+				B1D9DA567D9D4F70982EC8E53FA09821 /* Products */,
+				9DB9EE5F0128ADC717EF604963F19956 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB879466A7BFBBAF35C87C9F402A5D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB69FE0A7BECCAD75D4D1B444F215F4 /* CHTCollectionViewWaterfallLayout.modulemap */,
+				8A6AB7377F6399F2E37240078526D7FA /* CHTCollectionViewWaterfallLayout-dummy.m */,
+				E3C8040D28BDFAFDFA436057A320509D /* CHTCollectionViewWaterfallLayout-Info.plist */,
+				5818D8E42AA95476C780C6E789313313 /* CHTCollectionViewWaterfallLayout-prefix.pch */,
+				85A42F7514F4237314C25663475880CB /* CHTCollectionViewWaterfallLayout-umbrella.h */,
+				DDAA4D3824D3B0A0C7D527A107C9EDD9 /* CHTCollectionViewWaterfallLayout.debug.xcconfig */,
+				A7428FB7FE0C30FC5E23BB60E0557511 /* CHTCollectionViewWaterfallLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E627A093D6366C00E4B6AF90E1EA478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2E1C35C6AEC8C35B378A3C79F77561 /* Mantis-umbrella.h in Headers */,
+				07FF05F5A43388A83C2D0BED4A92E565 /* Mantis.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E553F45F8C7B4CE6F0D5D4D293DDD5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4797AAB08FFD3A29605F50302A0A86B4 /* Pods-PhotoEraser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B344DEBF9CDED7BC7792325CF484A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B87BF9CECEC1EC9CF6D5AA9369503B3 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB96F22E4E58B72E4AAE70E270C54B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6070032A25F510957F7C2E885B25F0E0 /* UnsplashPhotoPicker-umbrella.h in Headers */,
+				1A667E8C4D24806F90F7311EDE975175 /* UnsplashPhotoPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7DC34DD795DC4E172907C1D3EF2AEA /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */;
+			buildPhases = (
+				A6B344DEBF9CDED7BC7792325CF484A2 /* Headers */,
+				1AF8D187AE158424E9DE778C3879555B /* Sources */,
+				F612743FDFA3DF2428F3FA02627EA4FE /* Frameworks */,
+				F8485B0D9367968F5276ED29A166D084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			productName = CHTCollectionViewWaterfallLayout;
+			productReference = 5E096E08483F5F553481B6AC47BD0C63 /* CHTCollectionViewWaterfallLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		418D3075F70B272B304B89BF311E5FAE /* Mantis-Resource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE79EE9AD5273B997B01F74E136079EF /* Build configuration list for PBXNativeTarget "Mantis-Resource" */;
+			buildPhases = (
+				761D222F7C1E9229F9FE574B05D5E6D6 /* Sources */,
+				A814DA868EECCE03FD730744052A2825 /* Frameworks */,
+				0C1810AFABC410461AB5C468D7A4B548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mantis-Resource";
+			productName = "Mantis-Resource";
+			productReference = E4BEFC3EC59E2FC20A00BECBF928F938 /* Resource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2582182CBF711ADBEEF756F10448C0D5 /* Build configuration list for PBXNativeTarget "Mantis" */;
+			buildPhases = (
+				1E627A093D6366C00E4B6AF90E1EA478 /* Headers */,
+				B4B613FDA71653CEC56F02D78C8BEC3D /* Sources */,
+				47DE22F9A4E622ADB0D8968684B191E6 /* Frameworks */,
+				D37CFB85B7D412892BAE1A229565F028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F739F146102D8FF9D349BE57CB70737D /* PBXTargetDependency */,
+			);
+			name = Mantis;
+			productName = Mantis;
+			productReference = 316D22F8B19400DBC5073973480D1521 /* Mantis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2ABD0F2A8B2E7C130F5D356B187E9B3 /* UnsplashPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3200E455FC136D75BEE210E0A70449A7 /* Build configuration list for PBXNativeTarget "UnsplashPhotoPicker" */;
+			buildPhases = (
+				C3DB96F22E4E58B72E4AAE70E270C54B /* Headers */,
+				4B46DD18C526A26CDCED77D5144F2894 /* Sources */,
+				1FEB7532B4B433401E85B901AD00C014 /* Frameworks */,
+				B3EC0F9AC3E2A4B6D0E42A3399863F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnsplashPhotoPicker;
+			productName = UnsplashPhotoPicker;
+			productReference = CD0B01BD797DA670FCBAD8F48DAE1397 /* UnsplashPhotoPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1CF7D9484ED0344FF2A6B9F1E286AA0 /* Pods-PhotoEraser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EEEA3A44939C7A05DA835EFE7BECE0 /* Build configuration list for PBXNativeTarget "Pods-PhotoEraser" */;
+			buildPhases = (
+				5E553F45F8C7B4CE6F0D5D4D293DDD5B /* Headers */,
+				3330F759C962BD839E51ED89C4FA420D /* Sources */,
+				736375C3BA23A55302951337954204CE /* Frameworks */,
+				133A7AE41A177F1810D54C6D091A6427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABC70F32FE488B793E2F53841B593A8 /* PBXTargetDependency */,
+				B5244A0D4FB4B49D9A5DED97D40A5F7A /* PBXTargetDependency */,
+				F0A2B1EA7BDCEB2258B9FBDF9B34D07C /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoEraser";
+			productName = "Pods-PhotoEraser";
+			productReference = B319A251ECD7762BA432EDF864BBABE9 /* Pods_PhotoEraser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				"ko-KR",
+				ko,
+				nl,
+				"pt-PT",
+				ru,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B1D9DA567D9D4F70982EC8E53FA09821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */,
+				B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */,
+				418D3075F70B272B304B89BF311E5FAE /* Mantis-Resource */,
+				F1CF7D9484ED0344FF2A6B9F1E286AA0 /* Pods-PhotoEraser */,
+				C2ABD0F2A8B2E7C130F5D356B187E9B3 /* UnsplashPhotoPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1810AFABC410461AB5C468D7A4B548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD016CFB77284FD0CC8796887CBD58 /* MantisLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133A7AE41A177F1810D54C6D091A6427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EC0F9AC3E2A4B6D0E42A3399863F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37CFB85B7D412892BAE1A229565F028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9E92FD8F66FC4A9455CEF24DEA7D56 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8485B0D9367968F5276ED29A166D084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF8D187AE158424E9DE778C3879555B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD45C0B32C5FAB238FF5FE69B7E854F /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */,
+				7C295CBD8286BB8AB7989A3629F536FE /* CHTCollectionViewWaterfallLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3330F759C962BD839E51ED89C4FA420D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524E99C32032D32CEF9BC5608FDC7AE2 /* Pods-PhotoEraser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B46DD18C526A26CDCED77D5144F2894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EB2DAAAC9990F79BC68FD498E12F49 /* Bundle+Extensions.swift in Sources */,
+				FE1C3380C5384BDB2CD149A3F2000392 /* CheckmarkView.swift in Sources */,
+				00A3529AD207B40867A2EB963FAC3AF6 /* ConcurrentOperation.swift in Sources */,
+				C7C8C4412D024185922AB29135DC8348 /* Configuration.swift in Sources */,
+				FFDD96BA07555BBA09D1110DD037E4F7 /* Dictionary+Extensions.swift in Sources */,
+				B999190F2345EA64D3BC43347725EDD7 /* EmptyView.swift in Sources */,
+				DB3E9D6BC90EEFD0DB35569F2EC902CA /* GetCollectionPhotosRequest.swift in Sources */,
+				F41BA9481EF48F7E2B164F49EE047779 /* GradientView.swift in Sources */,
+				EF5B47F70BD3620DACC9277A55764388 /* ImageCache.swift in Sources */,
+				E6976935459345F8288940EA296F6320 /* ImageDownloader.swift in Sources */,
+				0EB8B70332910711FF7F11C896090F7D /* KeyedDecodingContainer+Extensions.swift in Sources */,
+				277ABDD7C0673C1232C0256745B3533F /* Localizable.strings in Sources */,
+				A475F113FA999B9A5F8C397D42126C65 /* Localizable.stringsdict in Sources */,
+				474EB1BBD97F089410FBD3466C5A0B76 /* NetworkRequest.swift in Sources */,
+				DFBCDA75F0AD35EE0389929D3123E05B /* NSError+Extensions.swift in Sources */,
+				48DECC50ABF70CD75D0F99C7A798B8DE /* OperationQueue+Extensions.swift in Sources */,
+				49A08B977721182B8CEDF9DF00063332 /* PagedDataSource.swift in Sources */,
+				BE8A2945B757D62E3604C0C4C1882BD1 /* PagingView.swift in Sources */,
+				C36FA7A91F149310D68113C674F45897 /* PhotoCell.swift in Sources */,
+				6EF4198108B1D35043C5B4AFBBF99708 /* PhotosDataSourceFactory.swift in Sources */,
+				1E7F01F3FF88D6775733917D8C3578B5 /* PhotoView.swift in Sources */,
+				7A48FC4A53CA886DF7C443185442C212 /* PhotoView.xib in Sources */,
+				386AF5E9BDC1FC7AA839F96D27E48875 /* SearchPhotosRequest.swift in Sources */,
+				EEFF2A0E50FBAE3EDE1303E18EF98D29 /* String+Localization.swift in Sources */,
+				06A4148CCAC2FC4F3F88EA5C6070431F /* UIColor+Extensions.swift in Sources */,
+				924668EC61D30A6870AE92F815190D67 /* UIColor+PhotoPicker.swift in Sources */,
+				F7002B8A0C4E99504A93F8C921B8CF1B /* UnsplashPagedRequest.swift in Sources */,
+				C6C9FE9CE1A372647AD5D01ABFA160FC /* UnsplashPhoto+DragAndDrop.swift in Sources */,
+				F887C9D5EC2760267BED472990416D5F /* UnsplashPhoto.swift in Sources */,
+				843255366FB07A3FCDF7C1D70B57E56A /* UnsplashPhotoExif.swift in Sources */,
+				12E73FB91B29931BC9A5DD02AD5F9957 /* UnsplashPhotoItemProvider.swift in Sources */,
+				146FD8C4371078E0AAC98A669AE7DD56 /* UnsplashPhotoPicker-dummy.m in Sources */,
+				8A45CA226B60A6B642B00D2E0FC28866 /* UnsplashPhotoPicker.swift in Sources */,
+				6726B5AD105D10F3BA3388A327180438 /* UnsplashPhotoPickerConfiguration.swift in Sources */,
+				71039EF03041D9C7C83D906963B505B0 /* UnsplashPhotoPickerPreviewViewController.swift in Sources */,
+				10C100F61E1BADBC02CAA2126A0992BD /* UnsplashPhotoPickerViewController+UICollectionView.swift in Sources */,
+				9D08DAB9C675B5C1679E25BA4F6183D4 /* UnsplashPhotoPickerViewController.swift in Sources */,
+				1204310020289962CA6C1188863C7113 /* UnsplashRequest.swift in Sources */,
+				102A277EC48D7945A8345F1461DEC13A /* UnsplashSearchController.swift in Sources */,
+				3C066E62EB063D493539465E7E894609 /* UnsplashUser.swift in Sources */,
+				579D09CB0CFEAB1175DE1A2C96656B62 /* URL+Extensions.swift in Sources */,
+				14EA0F2941507A54166486396E583643 /* WaterfallLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D222F7C1E9229F9FE574B05D5E6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B613FDA71653CEC56F02D78C8BEC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876E2A8950FE5F45D2A941BB20E2EAB3 /* CGAngle.swift in Sources */,
+				15E8B1C7D21E7ED2B61BDAFB401D9A94 /* CGImageExtensions.swift in Sources */,
+				FDD9A336EE734781268AA15D7471C11E /* CoreGraphicsExtensions.swift in Sources */,
+				4E6D4D5192ED9374E315C2C81ED428CC /* CropBoxFreeAspectFrameUpdater.swift in Sources */,
+				D6907FAAB11FABB11A9DA3EB1C0DB285 /* CropBoxLockedAspectFrameUpdater.swift in Sources */,
+				CE064F0B420C16A71E35D383B734E1F6 /* CropDimmingView.swift in Sources */,
+				1F2EB27B220E59B3954F6A3199AABA73 /* CropMaskProtocal.swift in Sources */,
+				9109A62ED1B1D4056A4A513A8FBBB58D /* CropMaskViewManager.swift in Sources */,
+				B176BEFBD9E026FF1906699D24F6277C /* CropOverlayView.swift in Sources */,
+				621C6FC6830F33E1DA85057475B6B414 /* CropScrollView.swift in Sources */,
+				02C3F82C6CC7FC22CE73DF23733CF09D /* CropToolbar.swift in Sources */,
+				14FA725CEA6C7A28ACFBDAC54B81AB34 /* CropToolbarProtocol.swift in Sources */,
+				572560A6C03C1DA166F047417424D849 /* CropView+Touches.swift in Sources */,
+				33A39D1AAF867E8F72302F68E69FA4E8 /* CropView+UIScrollViewDelegate.swift in Sources */,
+				3152270219A919C93996A9EDCF638533 /* CropView.swift in Sources */,
+				2A06A9D696A04EA5B6D746B9DA21A29D /* CropViewController.swift in Sources */,
+				094BC39D62F3B88CC5BDD25A72448C90 /* CropViewModel.swift in Sources */,
+				E405F3C82F138AF63FA804D0A9C558EA /* CropViewStatus.swift in Sources */,
+				969DE0C8FCB0D0DF54E0CD8E5393659F /* CropVisualEffectView.swift in Sources */,
+				AC89D46154DA3D5575F06F114AFA4034 /* DialConfig.swift in Sources */,
+				89B848037A0A41B084E5639148F5BD98 /* FixedRatioManager.swift in Sources */,
+				018D440E241DC71A0D651611B9573077 /* GeometryHelper.swift in Sources */,
+				F69459199CB6833B43562826D393AA16 /* ImageContainer.swift in Sources */,
+				721DE68682A91DF751B288875BC0AF11 /* LocalizedHelper.swift in Sources */,
+				E485AB2C9F410370FE4CA07AB0B5CFB1 /* Mantis-dummy.m in Sources */,
+				4B8D8A83867431B14CB03B652C63CDD3 /* Mantis.swift in Sources */,
+				A7F1957CE38506ED32B8D8E206CCF8FB /* Orientation.swift in Sources */,
+				3F6D27B19FE7C1AD18AA0A54C70D1CC7 /* RatioItemView.swift in Sources */,
+				D1BA94A2A1D90E09A876043A7A878A6A /* RatioOptions.swift in Sources */,
+				03C2BA0F4B12FFA406DCD2E4163F3D03 /* RatioPresenter.swift in Sources */,
+				407B31A2639DFA1017E433F9F0366807 /* RatioSelector.swift in Sources */,
+				A82A9ECA1E3B7A4E95550BAD9971972C /* RotationCalculator.swift in Sources */,
+				1F02B77186EDF1E68E6B98E9EEC57FF2 /* RotationDial+Touches.swift in Sources */,
+				F84CCD25FD79B7CBB52C56A4AF9C9EB2 /* RotationDial.swift in Sources */,
+				748022953AED8989A861D1A47314AEAC /* RotationDialPlate.swift in Sources */,
+				DBFDE6174DB4726E5584862B293AD83F /* RotationDialViewModel.swift in Sources */,
+				C13DC4C01EB2B6D998FDDC8C3E06E903 /* ToolBarButtonImageBuilder.swift in Sources */,
+				631AF093539C5A07763F240AEFEFB0DF /* ToolbarButtonOptions.swift in Sources */,
+				A12A1A3147507079BD02446530ED8AE7 /* UIImageExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5244A0D4FB4B49D9A5DED97D40A5F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantis;
+			target = B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */;
+			targetProxy = 836BD33A360BCF2609C8937C9968B856 /* PBXContainerItemProxy */;
+		};
+		CABC70F32FE488B793E2F53841B593A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = 40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = 32BC2475D2F841D0A6D9049DFFACA0BF /* PBXContainerItemProxy */;
+		};
+		F0A2B1EA7BDCEB2258B9FBDF9B34D07C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnsplashPhotoPicker;
+			target = C2ABD0F2A8B2E7C130F5D356B187E9B3 /* UnsplashPhotoPicker */;
+			targetProxy = 4E89CDB009965DAC9C08E4A1A1659B52 /* PBXContainerItemProxy */;
+		};
+		F739F146102D8FF9D349BE57CB70737D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mantis-Resource";
+			target = 418D3075F70B272B304B89BF311E5FAE /* Mantis-Resource */;
+			targetProxy = 439FA43CD4FD27B573C12D564307E16C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F99EE19D24C2D2D2E201AFC56683283 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE3553B8AC27F90C63726165F5668F6 /* Localizable.stringsdict */,
+			);
+			name = Localizable.stringsdict;
+			path = UnsplashPhotoPicker/UnsplashPhotoPicker/Resources;
+			sourceTree = "<group>";
+		};
+		C3733655C5D8FB34EF0E97FF2B69A8D7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B67C247E18EEDA42995CD64A4DA9530 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = UnsplashPhotoPicker/UnsplashPhotoPicker/Resources;
+			sourceTree = "<group>";
+		};
+		FEB397DAD40E06A093F81F8C15CE0EA7 /* MantisLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60301D8CFFD4DD07DDD0DA273874CD07 /* MantisLocalizable.strings */,
+				BBE6D2650D04B33A12E72A6946E4A043 /* MantisLocalizable.strings */,
+				39DAF5D7222E73AE3B0AEFDABB9FBF69 /* MantisLocalizable.strings */,
+				EBE6CC921B017F85E51FE86AEB6E465B /* MantisLocalizable.strings */,
+				883BA1161F199D38B3C42C93731B4DD1 /* MantisLocalizable.strings */,
+				9272F20CD937CD0D3CB3C7981672DE64 /* MantisLocalizable.strings */,
+				3C25AA2C67B1CF650296243DE73DAF3D /* MantisLocalizable.strings */,
+				0B4B2608276B47AF0FA11DB7EFD591EC /* MantisLocalizable.strings */,
+				19593D9FFE7EC02EA42D3C170B965010 /* MantisLocalizable.strings */,
+				01E46DBB3990F729DB84D14859630F17 /* MantisLocalizable.strings */,
+				7D1DDB40B7BE09B453F0B503AD85F272 /* MantisLocalizable.strings */,
+				8C93EDBFF85EFB43C10AFCF825241AC7 /* MantisLocalizable.strings */,
+				880A35A82AB228A04AC38FD9F9483475 /* MantisLocalizable.strings */,
+				480288E59FAC35EE738D2E620B0F6CB2 /* MantisLocalizable.strings */,
+			);
+			name = MantisLocalizable.strings;
+			path = Sources/Mantis/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		21622CDAFB89C7953F3E33CB9927D504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAA4D3824D3B0A0C7D527A107C9EDD9 /* CHTCollectionViewWaterfallLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CHTCollectionViewWaterfallLayout;
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		235AA5FBE44A1FD372476BF08916B7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11AABE8AB6E0796E59DBC50B5B255D3 /* Mantis.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mantis/Mantis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mantis/Mantis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mantis/Mantis.modulemap";
+				PRODUCT_MODULE_NAME = Mantis;
+				PRODUCT_NAME = Mantis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		300BF58C7466BEA5E41AFB990CB9F544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953ACFFD23A20B12BDA6792094A894CF /* UnsplashPhotoPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnsplashPhotoPicker/UnsplashPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnsplashPhotoPicker/UnsplashPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UnsplashPhotoPicker/UnsplashPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = UnsplashPhotoPicker;
+				PRODUCT_NAME = UnsplashPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		330D9084D348F7CACEC4172A9B182C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11AABE8AB6E0796E59DBC50B5B255D3 /* Mantis.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mantis";
+				IBSC_MODULE = Mantis;
+				INFOPLIST_FILE = "Target Support Files/Mantis/ResourceBundle-Resource-Mantis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Resource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7C922981C2E6CF01F3324AC81AB8DBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E175CD665899C13318B96DC4FC20C9 /* Mantis.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mantis";
+				IBSC_MODULE = Mantis;
+				INFOPLIST_FILE = "Target Support Files/Mantis/ResourceBundle-Resource-Mantis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Resource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF34C3BF900DBB6B63691DCB7D4016A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9F472D7854F06BA71BEA0399FB9457 /* Pods-PhotoEraser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoEraser/Pods-PhotoEraser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoEraser/Pods-PhotoEraser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D293AFA24B85C13B191000A0559BF2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7428FB7FE0C30FC5E23BB60E0557511 /* CHTCollectionViewWaterfallLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CHTCollectionViewWaterfallLayout;
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD2086CEA1A40869AD80BD24DF7158C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E175CD665899C13318B96DC4FC20C9 /* Mantis.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mantis/Mantis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mantis/Mantis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mantis/Mantis.modulemap";
+				PRODUCT_MODULE_NAME = Mantis;
+				PRODUCT_NAME = Mantis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF76138A287C4EF656C17FD78AA5B42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D965B2313E9CAE7AD6A4811FC884A3 /* UnsplashPhotoPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnsplashPhotoPicker/UnsplashPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnsplashPhotoPicker/UnsplashPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UnsplashPhotoPicker/UnsplashPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = UnsplashPhotoPicker;
+				PRODUCT_NAME = UnsplashPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0990D9B7991576E988AC72138DA3E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7602EB5194039AD594289F4CA40402BA /* Pods-PhotoEraser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoEraser/Pods-PhotoEraser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoEraser/Pods-PhotoEraser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2582182CBF711ADBEEF756F10448C0D5 /* Build configuration list for PBXNativeTarget "Mantis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235AA5FBE44A1FD372476BF08916B7F5 /* Debug */,
+				DD2086CEA1A40869AD80BD24DF7158C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3200E455FC136D75BEE210E0A70449A7 /* Build configuration list for PBXNativeTarget "UnsplashPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76138A287C4EF656C17FD78AA5B42A /* Debug */,
+				300BF58C7466BEA5E41AFB990CB9F544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EEEA3A44939C7A05DA835EFE7BECE0 /* Build configuration list for PBXNativeTarget "Pods-PhotoEraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF34C3BF900DBB6B63691DCB7D4016A1 /* Debug */,
+				E0990D9B7991576E988AC72138DA3E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7DC34DD795DC4E172907C1D3EF2AEA /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21622CDAFB89C7953F3E33CB9927D504 /* Debug */,
+				D293AFA24B85C13B191000A0559BF2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE79EE9AD5273B997B01F74E136079EF /* Build configuration list for PBXNativeTarget "Mantis-Resource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330D9084D348F7CACEC4172A9B182C99 /* Debug */,
+				7C922981C2E6CF01F3324AC81AB8DBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

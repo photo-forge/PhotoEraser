@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PhotoEraser/Pods-PhotoEraser-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework
+${BUILT_PRODUCTS_DIR}/Mantis/Mantis.framework
+${BUILT_PRODUCTS_DIR}/UnsplashPhotoPicker/UnsplashPhotoPicker.framework

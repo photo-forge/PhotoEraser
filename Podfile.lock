@@ -1,0 +1,24 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout/Swift (0.9.8)
+  - Mantis (1.7.1)
+  - UnsplashPhotoPicker (1.2.0)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout/Swift
+  - Mantis (~> 1.7.1)
+  - UnsplashPhotoPicker (~> 1.2)
+
+SPEC REPOS:
+  trunk:
+    - CHTCollectionViewWaterfallLayout
+    - Mantis
+    - UnsplashPhotoPicker
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 5f241d2480ab4939aa0d1ad4981de9eef1fbe60d
+  Mantis: 0c6052cf902f7b3b9ede7302ddc1116b64b4effe
+  UnsplashPhotoPicker: 09400fc1e84dfd04144fa8b204135e6bd2bc5bb2
+
+PODFILE CHECKSUM: f4879479406e39d8277148e8d9672064a5b68444
+
+COCOAPODS: 1.10.1
