@@ -63,6 +63,7 @@ class PELandingVC: UIViewController, CropViewControllerDelegate, PEImagePickerVC
             cropped.saveToDocuments(filename:"initial_crop")
             
             let homeVC = self.storyboard?.instantiateViewController(identifier: "PEHomeVC") as! PEHomeVC
+            
             self.navigationController?.pushViewController(homeVC, animated: true)
         }
     }
